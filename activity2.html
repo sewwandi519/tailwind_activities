@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <section>
+    <h1 class="pt-8 text-3xl font-bold text-center">
+      Hover Effect Cards
+    </h1>
+    <section class="flex gap-20 px-30 py-30">
+        <!-- card 01 -->
+        <div class="relative overflow-hidden duration-500 ease-in-out bg-white rounded-lg shadow-lg w-85 rounded-t-xl h-96 hover:translate-y-3 scroll-smooth hover:shadow-2xl">
+            <img src="./img/web.jpg" alt="Card Image" class="object-cover w-full transition-transform duration-500 transform hover:scale-110 h-52">
+            <!--start badge -->
+            <span class="absolute px-4 py-2 text-base font-bold text-white bg-blue-500 rounded-full top-2 right-2">New</span>
+            <!-- end badge  -->
+            <div class="p-4">
+                <h2 class="mb-2 text-xl font-semibold">Web Development </h2>
+                <p class="text-gray-600">Learn modern web development with the latest technologies and frameworks. </p><br>
+                <button class="ml-2 text-white bg-blue-500 rounded-md h-7 w-68 hover:bg-blue-600">Learn more</button>
+            </div>
+        </div>
+    <!-- card 02 -->
+    <div class="relative overflow-hidden duration-500 bg-white rounded-lg shadow-2xl w-85 rounded-t-xl h-96 hover:translate-y-3 hover:shadow-2xl">
+            <img src="./img/ui_ux.jpg" alt="Card Image" class="object-cover w-full transition-transform duration-500 transform hover:scale-110 h-52">
+            <!--start badge -->
+            <span class="absolute px-4 py-2 text-base font-bold text-white bg-purple-500 rounded-full top-2 right-2">Popular </span>
+            <!-- end badge  -->
+            <div class="p-4">   
+                <h2 class="mb-2 text-xl font-semibold">UI/UX Design</h2>
+                <p class="text-gray-600">Master the art of creating beautiful and user-friendly interfaces. </p>
+                <br>
+                <button class="ml-2 text-white bg-purple-500 rounded-md h-7 w-68 hover:bg-purple-600">Learn more</button>
+            </div>
+        </div>
+        <!-- card 3 -->
+    <div class="relative overflow-hidden duration-500 bg-white rounded-lg shadow-lg rounded-t-xl h-96 w-85 hover:translate-y-3 hover:shadow-2xl">
+            <img src="./img/data_science.jpg" alt="Card Image" class="object-cover w-full transition-transform duration-500 transform hover:scale-110 h-52">
+            <!--start badge -->
+            <span class="absolute px-4 py-2 text-base font-bold text-white bg-green-500 rounded-full top-2 right-2">Hot</span>
+            <!-- end badge  -->
+            <div class="p-4">
+                <h2 class="mb-2 text-xl font-semibold">Data Science</h2>
+                <p class="text-gray-600">Dive into data analysis, machine learning, and AI technologies. </p>
+                <br>
+                <button class="ml-2 text-white duration-500 bg-green-500 rounded-md h-7 w-68 hover:bg-green-600">Learn more</button>
+            </div>
+
+    </div>
+    
+    </section>
+  </body>
+</html>
