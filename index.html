@@ -7,16 +7,28 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
 <body>
-    <div class="sticky top-0 flex flex-wrap justify-between h-16 px-20 pt-5 bg-gray-900 ">
-        <span class="text-lg text-blue-400 ">My Brand</span>
-        <ul class="flex justify-end h-5 gap-8 text-white">
-            <li class="duration-300 hover:text-blue-600 transmition"><a href="./index.html">Activity 01</a></li>
-            <li class="duration-300 hover:text-blue-600 transmition"><a href="./activity2.html">Activity 02</a></li>
-            <li class="duration-300 hover:text-blue-600 transmition"><a href="./activity3.html">Activity 03</a></li>
-            <li class="duration-300 hover:text-blue-600 transmition"><a href="./activity4.html">Activity 04</a></li>
-            <li class="duration-300 hover:text-blue-600 transmition"><a href="./activity5.html">Activity 05</a></li>    
-        </ul>
-    </div>
+   <div class="sticky top-0 flex flex-wrap items-center justify-between h-16 px-6 bg-gray-900">
+  <span class="text-lg text-blue-400">My Brand</span>
+
+  <!-- Hamburger Icon  -->
+  <button class="p-2 text-white md:hidden" id="menu-btn">
+    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none"
+         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <line x1="3" x2="21" y1="6" y2="6"></line>
+      <line x1="3" x2="21" y1="12" y2="12"></line>
+      <line x1="3" x2="21" y1="18" y2="18"></line>
+    </svg>
+  </button>
+
+  <!-- Navigation Links -->
+  <ul id="menu" class="hidden gap-6 mt-4 text-white md:flex md:mt-0">
+    <li class="transition duration-300 hover:text-blue-600"><a href="./index.html">Activity 01</a></li>
+    <li class="transition duration-300 hover:text-blue-600"><a href="./activity2.html">Activity 02</a></li>
+    <li class="transition duration-300 hover:text-blue-600"><a href="./activity3.html">Activity 03</a></li>
+    <li class="transition duration-300 hover:text-blue-600"><a href="./activity4.html">Activity 04</a></li>
+    <li class="transition duration-300 hover:text-blue-600"><a href="./activity5.html">Activity 05</a></li>
+  </ul>
+</div>
     <br>
     <section class="px-30">
        <div class=" bg-stone-200 h-50"></div><br>
